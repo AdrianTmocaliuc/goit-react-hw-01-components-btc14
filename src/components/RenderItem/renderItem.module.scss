@@ -1,11 +1,28 @@
 .friendItem{
-
     display: flex;
+    border-radius: 10px;
+    width: 150px;
+    align-items: center;
+    background-color: #DCD8D8;
+    box-shadow: 0px 6px 7px -3px #000000;
+    > * {
+        margin-left: 10px;
+    }
+    &:not(:first-child){
+        margin-top: 5px;
+    }
 }
 .staticItem{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     padding: 0;
     height: 50px;
     
+}
+
+.type {
+    text-align: left;
+    padding-left: 15%;
+    text-transform: capitalize;
 }

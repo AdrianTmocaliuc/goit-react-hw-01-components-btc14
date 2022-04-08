@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import s from './TransactionHistory.module.scss';
 
 import RenderItem from 'components/RenderItem/RenderItem';
 
@@ -6,7 +7,7 @@ import RenderItem from 'components/RenderItem/RenderItem';
 
 const TransactionHistory = ({ items }) => {
   return (
-    <table className="transaction-history">
+    <table className={s.transaction_history}>
       <thead>
         <tr>
           <th>Type</th>

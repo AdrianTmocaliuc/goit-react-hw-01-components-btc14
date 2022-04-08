@@ -22,7 +22,7 @@ const RenderItem = ({
   if (currency) {
     return (
       <tr>
-        <td>{type}</td>
+        <td className={s.type}>{type}</td>
         <td>{amount}</td>
         <td>{currency}</td>
       </tr>
